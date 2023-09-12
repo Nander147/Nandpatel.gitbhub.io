@@ -1,0 +1,160 @@
+body {
+    margin: 0%;
+    background-color: #778DA9;
+    font-family: 'Dosis', monospace;
+    font-family: 'Raleway', monospace;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0f70d8;
+    border-radius: 5px 5px 0 0;
+}
+
+nav a {
+    padding: 10px;
+    color: #E0E1DD;
+    text-decoration: none;
+    font-size: small;
+}
+
+nav a:hover { 
+    text-decoration: wavy;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0D1B2A;
+    padding: 20px;
+    border-radius: 10px;    
+}
+
+footer a {
+    color: #E0E1DD;
+    text-decoration: none;
+    font-size: large;    
+}
+
+footer a:hover {
+    text-decoration: underline;    
+}
+
+.intro {
+    background-image: url("images/Headshot.jpg");
+    background-color: #210ef2;
+    color: #E0E1DD;
+    padding: 50px;
+    position: relative; 
+    height: 400px;
+    background-size: cover; 
+    background-position: center; 
+      
+}
+
+.img1 {
+    position: absolute;
+    top: 20px;
+    left: 100px; 
+    width: 250px; 
+     
+}
+
+.img2 {
+    position: absolute;
+    top: 20px; 
+    right: 100px; 
+    width: 150px;
+    
+}
+
+
+.intro h1 {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.intro h2 {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.about-me {
+    background-color: #8f0c0c;
+    color: #E0E1DD;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 0 0 5px 5px; 
+}
+
+.me {
+    position: relative;
+    top: -190px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.about-me a {
+    padding: 10px;
+    color: #E0E1DD;
+    text-decoration: none;
+    margin-left: -11px;
+
+}
+
+.about-me a:hover {
+    text-decoration: underline;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.card {
+    background-color: #ae330a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.info {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    color: #E0E1DD;
+    font-size: small;
+}
+.card label[for="name"], label[for="email"], label[for="message"] {
+    color: #fbfafa;
+}
+.one-col textarea[id="message"], input[type="text"], input[type="email"] {
+    width: 90%; 
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+.one-col input[type=submit] {
+    background-color: #1c11e6;
+    color: #E0E1DD;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.one-col input[type=submit]:hover {
+    background-color: #1808d1;
+}
